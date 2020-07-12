@@ -1,7 +1,7 @@
 /*
  * @Author: Vimalakirti
  * @Date: 2020-07-11 21:33:56
- * @LastEditTime: 2020-07-11 21:44:56
+ * @LastEditTime: 2020-07-12 18:46:43
  * @Description:
  * @FilePath: \vue-cars\car\src\router\index.js
  */
@@ -12,11 +12,15 @@ import Index from "../views/index/index.vue";
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
+const routes = [{
     path: "/",
     name: "Index",
-    component: Index
+    component: Index,
+    children: [{
+      path: '/user',
+      name: 'User',
+      component: () => import('../views/user/index.vue')
+    }]
   }
   // {
   //   path: "/about",

@@ -1,7 +1,7 @@
 /*
  * @Author: Vimalakirti
  * @Date: 2020-07-11 21:33:55
- * @LastEditTime: 2020-07-12 16:28:09
+ * @LastEditTime: 2020-07-12 20:16:21
  * @Description:
  * @FilePath: \vue-cars\car\src\main.js
  */
@@ -10,6 +10,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./plugin/aMap.js";
+import "./assets/iconfont/iconfont.css"
+
 
 const amapKeys = Object.keys(localStorage).filter(key => key.match(/^_AMap_/))
 

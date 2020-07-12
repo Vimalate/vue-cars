@@ -1,1 +1,25 @@
 @import "./normalize.scss";
+$color_main: #34393f;
+i[class^="iconfont"] {
+  //获取类名开头为icon的i标签
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  text-align: center;
+  color: #ccc;
+  line-height: 44px;
+  background-color: $color_main;
+}
+// .icon-help {
+//   background-image: url(../assets/help.png);
+// }
+// .icon-search {
+//   background-image: url(../assets/sousuo.png);
+// }
+// .icon-location {
+//   background-image: url(../assets/dingwei.png);
+// }
+// .icon-user {
+//   background-image: url(../assets/gerenzhongxin.png);
+// }
