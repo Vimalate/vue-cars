@@ -2,9 +2,10 @@
  * @Author: Vimalakirti
  * @Date: 2020-07-11 21:33:56
  * @LastEditTime: 2020-07-11 21:44:56
- * @Description: 
+ * @Description:
  * @FilePath: \vue-cars\car\src\router\index.js
- */ 
+ */
+
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Index from "../views/index/index.vue";
@@ -16,7 +17,7 @@ const routes = [
     path: "/",
     name: "Index",
     component: Index
-  },
+  }
   // {
   //   path: "/about",
   //   name: "About",

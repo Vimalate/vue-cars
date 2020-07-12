@@ -4,7 +4,7 @@
  * @LastEditTime: 2020-07-11 22:51:31
  * @Description: 
  * @FilePath: \vue-cars\car\src\App.vue
---> 
+-->
 <template>
   <div id="app">
     <router-view />

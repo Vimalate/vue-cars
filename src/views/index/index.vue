@@ -1,28 +1,25 @@
 <!--
  * @Author: Vimalakirti
  * @Date: 2020-07-11 21:37:05
- * @LastEditTime: 2020-07-11 23:18:34
+ * @LastEditTime: 2020-07-12 16:41:26
  * @Description: 
  * @FilePath: \vue-cars\car\src\views\index\index.vue
---> 
+-->
 <template>
   <div class="amap-wrap">
-    <el-amap vid="amapDemo" :center="center" :zoom="zoom" class="amap-demo"></el-amap>
+    <Map />
   </div>
 </template>
 
 <script>
+import Map from "../amap/index";
 export default {
   name: "Index",
-  data() {
-    return {
-      zoom: 18,
-      center: [113.30764968, 23.1200491]
-    };
-  }
+  data() {},
+  components: { Map }
 };
 </script>
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .amap-wrap {
   height: 100vh;
 }
